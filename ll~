@@ -77,4 +77,4 @@ git show <SHA>	Show diff vs. the SHA	$ git show fb738e…
 git remote add	Add remote repo	$ git remote add origin
 git push -u <loc> <br>	Push to branch to remote	$ git push -u origin master
 git push	Push to default remote	$ git push
-
+git checkout -b about-page /dodanie galezi/
