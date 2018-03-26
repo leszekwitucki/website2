@@ -73,9 +73,14 @@ git diff	Show diffs between commits, branches, etc.	$ git diff
 git commit --amend	Amend the last commit	$ git commit --amend
 git show <SHA>	Show diff vs. the SHA	$ git show fb738e…
 [website (master)]$ git remote add origin https://github.com/<name>/website.git
+
+
 [website (master)]$ git push -u origin master
 git remote add	Add remote repo	$ git remote add origin
 git push -u <loc> <br>	Push to branch to remote	$ git push -u origin master
 git push	Push to default remote	$ git push
 git checkout -b about-page /dodanie galezi/
 git branch /wyswietlenie galezi/
+git diff master
+git diff master about-page /wyswietlenie roznic pomiedzy galeziami/
+git checkour master /zmiana galezi/
